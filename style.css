@@ -1,0 +1,44 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-color: #0097B2;
+}
+
+.logoApp {
+	background-color: #127586;
+	width: 11rem;
+	height: 11rem;
+	display: grid;
+	place-content: center;
+}
+
+.material-symbols-outlined {
+	line-height: normal !important;
+}
+
+.card {
+	height: 45rem !important;
+}
+
+h1 {
+	font-size: 50pt !important;
+}
+
+.logo {
+	font-size: 100pt !important;
+}
+
+
+.btnPruebala {
+	--bs-btn-padding-y: .25rem !important;
+	--bs-btn-padding-x: 5.5rem !important;
+	--bs-btn-font-size: 2.5rem !important;
+}
+
+a.nav-link.active {
+	font-size: 13pt;
+	font-weight: bold;
+	text-decoration: underline !important;
+}

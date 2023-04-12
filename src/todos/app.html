@@ -1,0 +1,97 @@
+<div class="container">
+
+    <br><br><br>
+
+    <div class="row gx-5 gy-5">
+        <!-- INFO PAGINA -->
+        <div class="col-md-5 p-5">
+            <div class="row gy-3">
+                <div class="col">
+                    <div class="logoApp rounded-4 text-white">
+                        <span class="material-symbols-outlined logo">
+                            done_all
+                        </span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <h1 class="fw-bold text-white">ToDO</h1>
+                    </div>
+                    <div class="row">
+                        <h1 class="fw-bold text-white">App</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-white mt-5">
+                <p class="fs-2">
+                    Realiza una lista de tus tareas pendientes de forma facil y sencilla.
+                </p>
+            </div>
+
+            <div class="row mt-5">
+                <a class="btn btn-outline-light rounded-4 btnPruebala" href="#todo-app" role="button">Pruebala aqui</a>
+            </div>
+        </div>
+
+        <!-- TO DO -->
+        <div class="col-md-6 py-5" id="todo-app">
+            <div class="row"> 
+                <!-- CARD TO DO -->
+                <div class="col-md-11">
+                    <div class="card rounded-4">
+                        <!-- INPUT PARA AGREGAR TODO -->
+                        <div class="card-header">
+                            <div class="input-group">
+                                <input id="new-todo-input" type="text" class="form-control rounded-pill"
+                                    placeholder="Nueva actividad">
+                                <button class="btn btn-outline-secondary rounded-pill" type="button"
+                                    id="btnAgregar">Agregar</button>
+                            </div>
+                        </div>
+
+                        <!-- LISTA DE TODOS -->
+                        <ul class="todo-list list-group list-group-flush overflow-auto">
+                            
+                        </ul>
+                    </div>
+
+                    <div class="row">
+                        <div class="col text-end">
+                            <span class="text-white"><strong id="pending-count">0</strong> pendiente(s)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MENU FILTROS -->
+                <div class="col-md-1 mt-5">
+                    <div>
+                        <ul class="text-white">
+                            <li class="fs-6" role="button">
+                                <a class="nav-link filtro active" tipeFilter="All">
+                                    TODOS
+                                </a>
+                            </li>
+                            <li class="fs-6 mt-2" role="button">
+                                <a class="nav-link filtro" tipeFilter="Pending">
+                                    PENDIENTES
+                                </a>
+                            </li>
+                            <li class="fs-6 mt-2" role="button">
+                                <a class="nav-link filtro" tipeFilter="Completed">
+                                    COMPLETADOS
+                                </a>
+                            </li>
+                            <li class="fs-6 mt-2 clear-completed" role="button">
+                                <a class="nav-link">
+                                    BORRAR COMPLETADOS
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
