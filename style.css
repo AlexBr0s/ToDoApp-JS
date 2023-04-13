@@ -17,11 +17,6 @@
 	place-content: center;
 }
 
-.divCenter {
-	display: grid;
-	place-content: center;
-}
-
 .card {
 	height: 45rem !important;
 }
@@ -50,23 +45,8 @@
 }
 
 .text-funciones {
-	width: 28rem !important;
 	font-weight: 300;
 	font-size: 1.9rem !important;
-}
-
-.px-6 {
-	padding-right: 11rem !important;
-	padding-left: 11rem !important;
-}
-
-.ps-6 {
-	padding-left: 10rem !important;
-}
-
-.py-5 {
-	padding-top: 11rem !important;
-	padding-bottom: 11rem !important;
 }
 
 .logo {
@@ -79,90 +59,6 @@ a.nav-link.active {
 	text-decoration: underline !important;
 }
 
-@media (max-width: 1440px) {
-	.py-5 {
-		padding-top: 7rem !important;
-		padding-bottom: 7rem !important;
-	}
-
-	.px-6 {
-		padding-right: 4rem !important;
-		padding-left: 4rem !important;
-	}
-
-	.ps-6 {
-		padding-left: 4rem !important;
-	}
-
-	.ps-6 {
-		padding-left: 3rem !important;
-		/* padding-top: 0.8rem; */
-	}
-}
-
-@media (min-width: 1200px) and (max-width: 1440px) {
-	.card{
-		height: 40rem !important;
-	}
-
-	.logoApp {
-		width: 20rem !important;
-		height: 20rem !important;
-		border-radius: 3rem !important;
-	}
-
-	.logo {
-		font-size: 20rem !important;
-	}
-
-	.title-funciones {
-		font-size: 4.5rem !important;
-		font-weight: bold;
-	}
-
-	.py-5 {
-		padding-top: 2rem !important;
-		padding-bottom: 2rem !important;
-	}
-
-	/* .subtitle-funciones {
-		font-size: 1.9rem !important;
-		font-weight: bold;
-	} */
-
-	/* .text-funciones {
-		width: 28rem !important;
-		font-weight: 300;
-		font-size: 1.9rem !important;
-	} */
-
-
-}
-
-@media (max-width: 1199px) {
-	.logoApp {
-		width: 25rem !important;
-		height: 25rem !important;
-		border-radius: 3rem !important;
-	}
-
-	.logo {
-		font-size: 25rem !important;
-	}
-
-	.title-todo {
-		font-size: 5.4rem !important;
-	}
-
-	.title-alex {
-		font-size: 4.4rem !important;
-		top: 5rem;
-	}
-
-	.card{
-		height: 34rem !important;
-	}
-}
 
 @media (max-width: 768px) {
 	.logoApp {
@@ -189,13 +85,8 @@ a.nav-link.active {
 		margin-bottom: 3rem !important;
 	}
 
-	.card{
+	.card {
 		height: 40rem !important;
-	}
-
-	.ps-6 {
-		padding-left: 3.7rem !important;
-		padding-top: 0.8rem;
 	}
 
 }
@@ -212,35 +103,16 @@ a.nav-link.active {
 		font-size: 15rem !important;
 	}
 
-	.px-6 {
-		padding-right: 2rem !important;
-		padding-left: 2rem !important;
-	}
-
-	.ps-6 {
-		padding-left: 3rem !important;
-		padding-top: 0.8rem;
-	}
-
-	.py-5 {
-		padding-top: 1rem !important;
-		padding-bottom: 0rem !important;
-	}
-
 	.title-funciones {
-		font-size: 4.2rem !important;
-		font-weight: bold;
+		font-size: 3.8rem !important;
 	}
 
 	.subtitle-funciones {
-		font-size: 1.9rem !important;
-		font-weight: bold;
+		font-size: 1.5rem !important;
 	}
 
 	.text-funciones {
-		width: 28rem !important;
-		font-weight: 300;
-		font-size: 1.9rem !important;
+		font-size: 1.4rem !important;
 	}
 
 	.card {
@@ -264,27 +136,44 @@ a.nav-link.active {
 		margin-top: 2rem !important;
 		margin-bottom: 3rem !important;
 	}
+
+	#todo-app{
+		flex-direction: column;
+	}
+
+
+	.w-50{
+		width: 80vw !important;
+	}
+
+	.w-25{
+		width: 80vw !important;
+	}
+
+	.todo-home{
+		height: 85vh !important;
+	}
+
+
 }
 
 @media (max-width: 375px) {
+
 	.title-funciones {
-		font-size: 4rem !important;
-		font-weight: bold;
+		font-size: 3.2rem !important;
 	}
 
 	.subtitle-funciones {
-		font-size: 1.9rem !important;
-		font-weight: bold;
+		font-size: 1.2rem !important;
 	}
 
 	.text-funciones {
-		width: 28rem !important;
-		font-weight: 300;
-		font-size: 1.4rem !important;
+		font-size: 1.1rem !important;
 	}
 
+
 	.card {
-		height: 25rem !important;
+		height: 35rem !important;
 	}
 
 	.title-todo {
