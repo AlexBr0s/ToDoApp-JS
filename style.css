@@ -10,8 +10,8 @@
 .logoApp {
 	background: rgb(81, 112, 255);
 	background: linear-gradient(0deg, rgba(81, 112, 255, 1) 0%, rgba(255, 102, 196, 1) 100%);
-	width: 30rem;
-	height: 30rem;
+	width: 25rem;
+	height: 25rem;
 	border-radius: 4rem !important;
 	display: grid;
 	place-content: center;
@@ -22,14 +22,14 @@
 }
 
 .title-todo {
-	font-size: 6.7rem !important;
+	font-size: 5.6rem !important;
 	font-weight: bold;
 }
 
 .title-alex {
 	font-family: 'Mistrully', sans-serif !important;
 	color: #CB6CE6;
-	font-size: 4.5rem !important;
+	font-size: 4rem !important;
 	position: relative;
 	top: 5.6rem;
 }
