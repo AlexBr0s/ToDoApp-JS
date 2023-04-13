@@ -226,3 +226,38 @@ a.nav-link.active {
 		margin-bottom: 3rem !important;
 	}
 }
+
+@media (max-width: 375px) {
+	.title-funciones {
+		font-size: 4rem !important;
+		font-weight: bold;
+	}
+
+	.subtitle-funciones {
+		font-size: 1.9rem !important;
+		font-weight: bold;
+	}
+
+	.text-funciones {
+		width: 28rem !important;
+		font-weight: 300;
+		font-size: 1.4rem !important;
+	}
+
+	.card {
+		height: 25rem !important;
+	}
+
+	.title-todo {
+		font-size: 4rem !important;
+	}
+
+	.title-alex {
+		font-size: 3rem !important;
+		top: 4rem;
+	}
+
+	.div-subtitle-funciones {
+		margin-top: 3rem !important;
+	}
+}
