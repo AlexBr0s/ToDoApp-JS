@@ -1,93 +1,142 @@
 <div class="container">
+    <div class="row">
+        <div class="col col-md-2 order-md-1 mt-5 wow animate__animated animate__bounceInLeft" data-wow-delay="0.5s">
+            <div class="row">
+                <p class="fw-bold m-0">GitHub</p>
+                <a class="text-decoration-none text-black" href="https://github.com/AlexBr0s/ToDoApp-JS" role="button">
+                    <p class="fs-5">AlexBr0s</p>
+                </a>
+            </div>
+        </div>
 
-    <br><br><br>
+        <div class="col col-md-2 order-md-3 mt-5 wow animate__animated animate__bounceInRight" data-wow-delay="0.5s">
+            <div class="row text-end">
+                <p class="fw-bold m-0">Elaborado con</p>
+                <p class="fs-5">HTML, CSS, JS y Vite</p>
+            </div>
+        </div>
 
-    <div class="row gx-5 gy-5">
-        <!-- INFO PAGINA -->
-        <div class="col-md-5 p-5">
-            <div class="row gy-3">
-                <div class="col">
-                    <div class="logoApp rounded-4 text-white">
+        <div class="col order-md-2 align-self-center text-center vh-100 wow animate__animated animate__zoomIn" data-wow-duration="1s">
+
+            <div class="">
+                <div>
+                    <p class="title-alex fs-1">
+                        Alex
+                    </p>
+                </div>
+                <div>
+                    <p class="title-todo fs-1">
+                        ToDo App
+                    </p>
+                </div>
+            </div>
+
+            <div class="divCenter my-5">
+                <a class="text-decoration-none" href="#todo-app" role="button">
+                    <div class="logoApp rounded-5 text-white">
                         <span class="material-symbols-outlined logo">
                             done_all
                         </span>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <h1 class="fw-bold text-white">ToDO</h1>
-                    </div>
-                    <div class="row">
-                        <h1 class="fw-bold text-white">App</h1>
-                    </div>
-                </div>
+                </a>
+
             </div>
 
-            <div class="row text-white mt-5">
-                <p class="fs-2">
-                    Realiza una lista de tus tareas pendientes de forma facil y sencilla.
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- FUNCIONALIDADES -->
+        <div class="col-md-5 col align-self-center px-6 py-5 vh-100">
+            <div class="wow animate__animated animate__fadeInDown">
+                <span class="badge rounded-pill bg-degradado fs-4">ToDo</span>
+                <p class="title-funciones">
+                    Funciones
                 </p>
             </div>
 
+            <div class="row mt-5 ">
+                <p class="subtitle-funciones wow animate__animated animate__fadeInDown">
+                    Crea tareas pendientes
+                </p>
+                <p class="text-funciones wow animate__animated animate__fadeInLeftBig">
+                    Crea, modifica su estado y borra
+                    tareas completadas.
+                </p>
+            </div>
             <div class="row mt-5">
-                <a class="btn btn-outline-light rounded-4 btnPruebala" href="#todo-app" role="button">Pruebala aqui</a>
+                <p class="subtitle-funciones wow animate__animated animate__fadeInDown">
+                    Filtros
+                </p>
+                <p class="text-funciones wow animate__animated animate__fadeInLeftBig">
+                    Escoge entre los distintos filtros
+                    y ordena tus tareas pendientes.
+                </p>
             </div>
         </div>
 
-        <!-- TO DO -->
-        <div class="col-md-6 py-5" id="todo-app">
-            <div class="row"> 
-                <!-- CARD TO DO -->
-                <div class="col-md-11">
-                    <div class="card rounded-4">
-                        <!-- INPUT PARA AGREGAR TODO -->
-                        <div class="card-header">
-                            <div class="input-group">
-                                <input id="new-todo-input" type="text" class="form-control rounded-pill"
-                                    placeholder="Nueva actividad">
-                                <button class="btn btn-outline-secondary rounded-pill" type="button"
-                                    id="btnAgregar">Agregar</button>
+        <!-- TODOs APP -->
+        <div class="col-md-7 col ps-6 bg-degradado vh-100">
+            <div class="row align-items-center vh-100 wow animate__animated animate__bounceInUp">
+                <div class="row" id="todo-app">
+                    <!-- CARD TO DO -->
+                    <div class="col-md-7">
+                        <div class="card rounded-4">
+                            <!-- INPUT PARA AGREGAR TODO -->
+                            <div class="card-header">
+                                <div class="input-group">
+                                    <input id="new-todo-input" type="text" class="form-control rounded-pill"
+                                        placeholder="Nueva actividad">
+                                    <button class="btn btn-outline-secondary rounded-pill" type="button"
+                                        id="btnAgregar">Agregar</button>
+                                </div>
+                            </div>
+
+                            <!-- LISTA DE TODOS -->
+                            <ul class="todo-list list-group list-group-flush overflow-auto">
+
+                            </ul>
+                        </div>
+
+                        <div class="row">
+                            <div class="col text-end">
+                                <span class="text-white"><strong id="pending-count">0</strong>
+                                    pendiente(s)</span>
                             </div>
                         </div>
-
-                        <!-- LISTA DE TODOS -->
-                        <ul class="todo-list list-group list-group-flush overflow-auto">
-                            
-                        </ul>
                     </div>
 
-                    <div class="row">
-                        <div class="col text-end">
-                            <span class="text-white"><strong id="pending-count">0</strong> pendiente(s)</span>
+                    <!-- MENU FILTROS -->
+                    <div class="col-md-3 mt-5">
+                        <div>
+                            <ul class="text-white">
+                                <li class="fs-6" role="button">
+                                    <a class="nav-link filtro active" tipeFilter="All">
+                                        TODOS
+                                    </a>
+                                </li>
+                                <li class="fs-6 mt-2" role="button">
+                                    <a class="nav-link filtro" tipeFilter="Pending">
+                                        PENDIENTES
+                                    </a>
+                                </li>
+                                <li class="fs-6 mt-2" role="button">
+                                    <a class="nav-link filtro" tipeFilter="Completed">
+                                        COMPLETADOS
+                                    </a>
+                                </li>
+                                <li class="fs-6 mt-2 clear-completed" role="button">
+                                    <a class="nav-link">
+                                        BORRAR COMPLETADOS
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-
-                <!-- MENU FILTROS -->
-                <div class="col-md-1 mt-5">
-                    <div>
-                        <ul class="text-white">
-                            <li class="fs-6" role="button">
-                                <a class="nav-link filtro active" tipeFilter="All">
-                                    TODOS
-                                </a>
-                            </li>
-                            <li class="fs-6 mt-2" role="button">
-                                <a class="nav-link filtro" tipeFilter="Pending">
-                                    PENDIENTES
-                                </a>
-                            </li>
-                            <li class="fs-6 mt-2" role="button">
-                                <a class="nav-link filtro" tipeFilter="Completed">
-                                    COMPLETADOS
-                                </a>
-                            </li>
-                            <li class="fs-6 mt-2 clear-completed" role="button">
-                                <a class="nav-link">
-                                    BORRAR COMPLETADOS
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
