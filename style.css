@@ -96,11 +96,50 @@ a.nav-link.active {
 
 	.ps-6 {
 		padding-left: 3rem !important;
-		padding-top: 0.8rem;
+		/* padding-top: 0.8rem; */
 	}
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1200px) and (max-width: 1440px) {
+	.card{
+		height: 40rem !important;
+	}
+
+	.logoApp {
+		width: 20rem !important;
+		height: 20rem !important;
+		border-radius: 3rem !important;
+	}
+
+	.logo {
+		font-size: 20rem !important;
+	}
+
+	.title-funciones {
+		font-size: 4.5rem !important;
+		font-weight: bold;
+	}
+
+	.py-5 {
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
+	}
+
+	/* .subtitle-funciones {
+		font-size: 1.9rem !important;
+		font-weight: bold;
+	} */
+
+	/* .text-funciones {
+		width: 28rem !important;
+		font-weight: 300;
+		font-size: 1.9rem !important;
+	} */
+
+
+}
+
+@media (max-width: 1199px) {
 	.logoApp {
 		width: 25rem !important;
 		height: 25rem !important;
