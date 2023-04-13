@@ -59,7 +59,8 @@ a.nav-link.active {
 	text-decoration: underline !important;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
+	/* ANTES 1024px */
 	.logoApp {
 		width: 25rem !important;
 		height: 25rem !important;
@@ -92,17 +93,46 @@ a.nav-link.active {
 	}
 
 	.w-50{
-		width: 80vw !important;
+		width: 50vw !important;
 	}
 
 	.w-25{
-		width: 20vw !important;
+		width: 15vw !important;
 	}
 
 	.card {
 		height: 65vh !important;
 	} 
 
+	.fs-6{
+		font-size: 0.7rem !important;
+	}
+
+	a.nav-link.active {
+		font-size: 10pt;
+	}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1440px){
+	.logoApp {
+		width: 20rem !important;
+		height: 20rem !important;
+		border-radius: 3rem !important;
+	}
+
+	.logo {
+		font-size: 20rem !important;
+	}
+
+	.title-todo {
+		font-size: 4.2rem !important;
+	}
+
+	.title-alex {
+		font-size: 3.4rem !important;
+		top: 4.2rem;
+	}
 }
 
 @media (max-width: 768px) {
@@ -141,6 +171,14 @@ a.nav-link.active {
 	.card {
 		height: 65vh !important;
 	} 
+
+	.fs-6{
+		font-size: 1rem !important;
+	}
+
+	a.nav-link.active {
+		font-size: 13pt;
+	}
 
 }
 
@@ -207,6 +245,14 @@ a.nav-link.active {
 		height: 85vh !important;
 	}
 
+	.fs-6{
+		font-size: 1rem !important;
+	}
+
+	a.nav-link.active {
+		font-size: 13pt;
+	}
+
 
 }
 
@@ -240,5 +286,13 @@ a.nav-link.active {
 
 	.div-subtitle-funciones {
 		margin-top: 3rem !important;
+	}
+
+	.fs-6{
+		font-size: 1rem !important;
+	}
+
+	a.nav-link.active {
+		font-size: 13pt;
 	}
 }
