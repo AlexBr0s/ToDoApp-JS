@@ -64,7 +64,7 @@
 	padding-left: 10rem !important;
 }
 
-.py-5{
+.py-5 {
 	padding-top: 11rem !important;
 	padding-bottom: 11rem !important;
 }
@@ -100,19 +100,28 @@ a.nav-link.active {
 		padding-top: 0.8rem;
 	}
 
+	.py-5 {
+		padding-top: 1rem !important;
+		padding-bottom: 0rem !important;
+	}
+
 	.title-funciones {
-		font-size: 4.5rem !important;
+		font-size: 4.2rem !important;
 		font-weight: bold;
 	}
-	
+
 	.subtitle-funciones {
 		font-size: 1.9rem !important;
 		font-weight: bold;
 	}
-	
+
 	.text-funciones {
 		width: 28rem !important;
 		font-weight: 300;
 		font-size: 1.9rem !important;
+	}
+
+	.card {
+		height: 35rem !important;
 	}
 }
