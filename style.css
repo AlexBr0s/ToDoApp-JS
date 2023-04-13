@@ -59,6 +59,51 @@ a.nav-link.active {
 	text-decoration: underline !important;
 }
 
+@media (max-width: 1024px) {
+	.logoApp {
+		width: 25rem !important;
+		height: 25rem !important;
+		border-radius: 3rem !important;
+	}
+
+	.logo {
+		font-size: 25rem !important;
+	}
+
+	.title-todo {
+		font-size: 5.4rem !important;
+	}
+
+	.title-alex {
+		font-size: 4rem !important;
+		top: 4.6rem;
+	}
+
+	.title-funciones {
+		font-size: 3.8rem !important;
+	}
+
+	.subtitle-funciones {
+		font-size: 1.5rem !important;
+	}
+
+	.text-funciones {
+		font-size: 1.4rem !important;
+	}
+
+	.w-50{
+		width: 80vw !important;
+	}
+
+	.w-25{
+		width: 20vw !important;
+	}
+
+	.card {
+		height: 65vh !important;
+	} 
+
+}
 
 @media (max-width: 768px) {
 	.logoApp {
@@ -85,9 +130,17 @@ a.nav-link.active {
 		margin-bottom: 3rem !important;
 	}
 
-	.card {
-		height: 40rem !important;
+	.w-50{
+		width: 50vw !important;
 	}
+
+	.w-25{
+		width: 25vw !important;
+	}
+
+	.card {
+		height: 65vh !important;
+	} 
 
 }
 
