@@ -79,10 +79,93 @@ a.nav-link.active {
 	text-decoration: underline !important;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1440px) {
+	.py-5 {
+		padding-top: 7rem !important;
+		padding-bottom: 7rem !important;
+	}
+
+	.px-6 {
+		padding-right: 4rem !important;
+		padding-left: 4rem !important;
+	}
+
+	.ps-6 {
+		padding-left: 4rem !important;
+	}
+
+	.ps-6 {
+		padding-left: 3rem !important;
+		padding-top: 0.8rem;
+	}
+}
+
+@media (max-width: 1024px) {
 	.logoApp {
-		width: 15rem;
-		height: 15rem;
+		width: 25rem !important;
+		height: 25rem !important;
+		border-radius: 3rem !important;
+	}
+
+	.logo {
+		font-size: 25rem !important;
+	}
+
+	.title-todo {
+		font-size: 5.4rem !important;
+	}
+
+	.title-alex {
+		font-size: 4.4rem !important;
+		top: 5rem;
+	}
+
+	.card{
+		height: 34rem !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.logoApp {
+		width: 20rem !important;
+		height: 20rem !important;
+		border-radius: 3rem !important;
+	}
+
+	.logo {
+		font-size: 20rem !important;
+	}
+
+	.title-todo {
+		font-size: 4.7rem !important;
+	}
+
+	.title-alex {
+		font-size: 3.4rem !important;
+		top: 4.2rem;
+	}
+
+	.col-title-header {
+		margin-top: 2rem !important;
+		margin-bottom: 3rem !important;
+	}
+
+	.card{
+		height: 40rem !important;
+	}
+
+	.ps-6 {
+		padding-left: 3.7rem !important;
+		padding-top: 0.8rem;
+	}
+
+}
+
+
+@media (max-width: 425px) {
+	.logoApp {
+		width: 15rem !important;
+		height: 15rem !important;
 		border-radius: 3rem !important;
 	}
 
@@ -123,5 +206,23 @@ a.nav-link.active {
 
 	.card {
 		height: 35rem !important;
+	}
+
+	.title-todo {
+		font-size: 4.7rem !important;
+	}
+
+	.title-alex {
+		font-size: 3.4rem !important;
+		top: 4.2rem;
+	}
+
+	.div-subtitle-funciones {
+		margin-top: 5rem !important;
+	}
+
+	.col-title-header {
+		margin-top: 2rem !important;
+		margin-bottom: 3rem !important;
 	}
 }
